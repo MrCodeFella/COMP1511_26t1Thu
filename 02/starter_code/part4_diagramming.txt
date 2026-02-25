@@ -1,0 +1,16 @@
+print(how many days till your assignment is due?)
+scan(days)
+
+if (10 < days) {
+    execute code
+} else if (7 <= days && days <= 10) {
+   print(have you started assignment)
+   scan(answer)
+   if (answer == yes) {
+    print(great!)
+   } else {
+    print(ask for help!)
+   }
+} else if (days < 7) {
+    execute
+}
